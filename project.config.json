@@ -1,0 +1,73 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.2",
+	"appid": "wx018ba7f7fdcaf9fd",
+	"projectname": "yikao.mini",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "entryExam",
+					"pathName": "pages/user/entryExam",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "userInfo",
+					"pathName": "pages/user/userInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "examConfirm",
+					"pathName": "pages/user/examConfirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "注册",
+					"pathName": "pages/user/signup",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

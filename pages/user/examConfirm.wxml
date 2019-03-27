@@ -1,0 +1,79 @@
+<!--pages/user/examConfirm.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page_title">报名信息确认</view>
+  </view>
+
+
+  <view class="page__bd">
+    <view class='weui-cells__title'>二寸照片</view>
+    <view class='weui-cells weui-cells_after-title'>
+      <view class='person_icon'>
+        <image src=''></image>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">姓名</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">性别</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">出生日期</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">民族</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">身份证</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">手机号</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">考试项目</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">考试地点</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">考试时间</view>
+        <view class="weui-cell__ft">说明文字</view>
+      </view>
+    </view>
+    <view class='btn-cell'>
+      <view>
+        <button class="weui-btn" style='margin:100rpx 20rpx; width:300rpx' type="primary" >确定</button>
+      </view>
+      <view>
+        <button class="weui-btn" style='margin:100rpx 20rpx; width:300rpx' type="default" plain="true" bindtap='bindCancleTap'>取消</button>
+      </view>
+    </view>
+
+  </view>
+</view>

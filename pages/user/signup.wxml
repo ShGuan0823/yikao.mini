@@ -1,0 +1,45 @@
+<!--pages/user/signup.wxml-->
+<view class="page__bd">
+  <view class="weui-cells__title"></view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">昵称</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" value='{{name}}' bindinput='bindNameInput' placeholder="请输入昵称" />
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">密码</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" value='{{pwd}}' bindinput='bindPwdInput' placeholder="请输入密码" />
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input weui-cell_vcode">
+      <view class="weui-cell__hd">
+        <view class="weui-label">手机号</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" value='{{mobile}}' bindinput='bindMobileInput' placeholder="请输入手机号" />
+      </view>
+      <view class="weui-cell__ft">
+        <view class="weui-vcode-btn">获取验证码</view>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input weui-cell_vcode">
+      <view class="weui-cell__hd">
+        <view class="weui-label">验证码</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" value='{{code}}' bindinput='bindCodeInput' placeholder="请输入验证码" />
+      </view>
+
+    </view>
+  </view>
+  <view>
+    <button style='margin: 100rpx 20rpx;' type='primary' bindtap='bindSignup'>注册</button>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/login",
+    "pages/user/entryExam",
+    "pages/user/userInfo",
+    "pages/user/examConfirm",
+    "pages/user/signup"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "艺考小程序",
+    "navigationBarTextStyle": "black"
+  }
+}

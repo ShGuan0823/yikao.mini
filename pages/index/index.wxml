@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" type='primary'> 登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="index-list" bindtap='myExam'>
+    <view class="weui-panel__bd">
+      <view class="index-label weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">我的考试</view>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="index-list" bindtap='entryExam'>
+    <view class="weui-panel__bd">
+      <view class="index-label weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">考试报名</view>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="index-list">
+    <view class="weui-panel__bd">
+      <view class="index-label weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">考试管理</view>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="index-list">
+    <view class="weui-panel__bd">
+      <view class="index-label weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">系统管理</view>
+        </view>
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="" />
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

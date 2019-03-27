@@ -1,0 +1,5 @@
+/* pages/user/login.wxss */
+.login-btn{
+  width: 500rpx;
+  margin-top: 650rpx;
+}

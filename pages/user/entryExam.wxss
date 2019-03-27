@@ -1,0 +1,13 @@
+/* pages/user/entryExam.wxss */
+.page_title{
+  font-size: 60rpx;
+  text-align: center;
+}
+.photo{
+  height: 100rpx;
+}
+
+.mypicker{
+  display:inline;
+  
+}
