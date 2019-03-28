@@ -7,7 +7,9 @@
     "pages/user/userInfo",
     "pages/user/examConfirm",
     "pages/user/signup",
-    "pages/examiner/examinerList"
+    "pages/examiner/examinerList",
+    "pages/examiner/addExaminer",
+    "pages/examiner/examinerInfo"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -6,7 +6,9 @@ Page({
     tabs: ["考级点管理", "考官管理"],
     activeIndex: 1,
     sliderOffset: 0,
-    sliderLeft: 0
+    sliderLeft: 0,
+    inputShowed: false,
+    inputVal: ""
   },
   onLoad: function () {
     var that = this;
@@ -24,5 +26,34 @@ Page({
       sliderOffset: e.currentTarget.offsetLeft,
       activeIndex: e.currentTarget.id
     });
+  },
+
+  showInput: function () {
+    this.setData({
+      inputShowed: true
+    });
+  },
+  hideInput: function () {
+    this.setData({
+      inputVal: "",
+      inputShowed: false
+    });
+  },
+  clearInput: function () {
+    this.setData({
+      inputVal: ""
+    });
+  },
+  inputTyping: function (e) {
+    this.setData({
+      inputVal: e.detail.value
+    });
+  },
+
+
+  bindAddTap(e){
+    wx.navigateTo({
+      url: '/pages/examiner/addExaminer',
+    })
   }
 });

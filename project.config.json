@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 4,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -61,8 +61,8 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "注册",
+					"id": 3,
+					"name": "signup",
 					"pathName": "pages/user/signup",
 					"query": "",
 					"scene": null
@@ -71,6 +71,20 @@
 					"id": 4,
 					"name": "examinerList",
 					"pathName": "pages/examiner/examinerList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "addExaminer",
+					"pathName": "pages/examiner/addExaminer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "examinerInfo",
+					"pathName": "pages/examiner/examinerInfo",
 					"query": "",
 					"scene": null
 				}

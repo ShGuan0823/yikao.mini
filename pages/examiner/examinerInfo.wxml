@@ -1,0 +1,33 @@
+<!--pages/examiner/examinerInfo.wxml-->
+<view class="page">
+  <view>
+    <view class='page_title'>考官详细信息</view>
+    <view class="weui-cells__title">考官信息</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">姓名</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" value='{{name}}' bindinput='bindNameInput' placeholder="请输入姓名" />
+        </view>
+      </view>
+    </view>
+    <view class='weui-cells weui-cells_after-title'>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">电话</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" value='{{mobile}}' bindinput='bindMobileInput' placeholder="请输入考官手机号" />
+        </view>
+      </view>
+    </view>
+    <view>
+      <button type='primary' style='margin:40rpx;'>确定</button>
+    </view>
+    <view>  
+      <button type='warn' style='margin:40rpx;'>删除</button>
+    </view>
+  </view>
+</view>
